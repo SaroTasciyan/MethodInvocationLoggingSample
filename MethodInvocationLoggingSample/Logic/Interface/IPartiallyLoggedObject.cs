@@ -8,5 +8,6 @@ namespace MethodInvocationLoggingSample.Logic
     {
         int LoggedMethodWithDecoration(Guid id, string data);
         void NotLoggedMethodWithoutDecoration();
+        void NotLoggedMethodDespiteDecoration();
     }
 }
