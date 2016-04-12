@@ -67,6 +67,7 @@
     <Compile Include="Container\Installers\LoggedObjectInstaller.cs" />
     <Compile Include="Container\Installers\ServiceInstaller.cs" />
     <Compile Include="Logic\AlwaysLoggedObject.cs" />
+    <Compile Include="Logic\ILoggedObject.cs" />
     <Compile Include="Logic\Interface\IAlwaysLoggedObject.cs" />
     <Compile Include="Logic\Interface\INeverLoggedObject.cs" />
     <Compile Include="Logic\Interface\IPartiallyLoggedObject.cs" />

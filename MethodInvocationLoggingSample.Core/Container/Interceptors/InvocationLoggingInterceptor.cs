@@ -45,7 +45,6 @@ namespace MethodInvocationLoggingSample.Core.Container.Interceptors
                 ParameterInfo[] parameters = invocation.Method.GetParameters();
                 for (int i = 0; i < invocation.Arguments.Length; i++)
                 {
-
                     logMessageBuilder.AppendLine($"{parameters[i].Name}: {invocation.Arguments[i]}");
                 }
 
@@ -57,7 +56,7 @@ namespace MethodInvocationLoggingSample.Core.Container.Interceptors
 
         private void LogInvocationExit(IInvocation invocation)
         {
-            if (invocation.Method.ReturnType != typeof (void))
+            if (invocation.Method.ReturnType != typeof(void))
             {
                 logger.Info($"{invocation.Method} return value is: {invocation.ReturnValue ?? "null"}");
             }

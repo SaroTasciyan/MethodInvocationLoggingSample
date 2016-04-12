@@ -3,7 +3,7 @@ using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 
 using MethodInvocationLoggingSample.Core.Container.Interceptors;
-using MethodInvocationLoggingSample.Core.Logging;
+using MethodInvocationLoggingSample.Logic;
 
 namespace MethodInvocationLoggingSample.Container.Installers
 {

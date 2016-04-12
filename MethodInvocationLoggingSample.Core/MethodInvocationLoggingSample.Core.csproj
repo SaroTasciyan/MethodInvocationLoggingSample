@@ -69,7 +69,6 @@
     <Compile Include="Container\Installers\InterceptorInstaller.cs" />
     <Compile Include="Container\Installers\LoggerFacilityInstaller.cs" />
     <Compile Include="Container\Interceptors\InvocationLoggingInterceptor.cs" />
-    <Compile Include="Logging\ILoggedObject.cs" />
     <Compile Include="Logging\InvocationLoggingAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\IService.cs" />
